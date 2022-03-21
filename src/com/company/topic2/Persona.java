@@ -1,4 +1,4 @@
-package topic2;
+package com.company.topic2;
 
 public class Persona {
 
