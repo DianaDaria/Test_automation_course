@@ -15,11 +15,12 @@ public class Operations {
         System.out.println("Pre-decrement:" + (--a));
         System.out.println("Post-decrement:" + (a--));
     }
+
     ;
 
-    static void printLogicOperations(boolean a, boolean b){
-        System.out.println("And:" + (a&&b));
-        System.out.println("Or:" + (a||b));
+    static void printLogicOperations(boolean a, boolean b) {
+        System.out.println("And:" + (a && b));
+        System.out.println("Or:" + (a || b));
         System.out.println("Negaie:" + (!a));
     }
 
@@ -32,13 +33,13 @@ public class Operations {
     static void userForAndWhile(int limita) {
         int index = 10;
 
-        while (index <= limita){
+        while (index <= limita) {
             System.out.print(index + " ");
             index++;
         }
 
         System.out.println("Valorea lui index la finalul executiei while este" + index);
-        for (int i = 10; i <= limita; i ++ ){
+        for (int i = 10; i <= limita; i++) {
             System.out.print(i + " ");
         }
         System.out.println("Ciclul for s-a executat ");

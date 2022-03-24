@@ -6,7 +6,6 @@ public class Angajat {
         virsta = virstaAtribuita;
     }
 
-
     String nume;
     int virsta;
     double salariu;
@@ -15,7 +14,6 @@ public class Angajat {
     void seteazaSalariu(double salariuAtribuit) {
         salariu = salariuAtribuit;
         System.out.println(nume + " are urmatorul salariu " + salariu);
-
     }
 
     void seteazaGen(String genAtribuit) {
