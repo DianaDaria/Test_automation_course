@@ -1,7 +1,7 @@
 package com.company.topic4;
 
 public class Persoana {
-    public Persoana (String numeAtribuit, int varstaPersoana){
+    public Persoana(String numeAtribuit, int varstaPersoana) {
         nume = numeAtribuit;
         varsta = varstaPersoana;
     }
@@ -9,16 +9,16 @@ public class Persoana {
     String nume;
     int varsta;
 
-    public void afiseazaCategoriaDeVarsta(){
-        if (varsta < 12){
+    public void afiseazaCategoriaDeVarsta() {
+        if (varsta < 12) {
             System.out.println("Persoana este copil");
-        }else if (varsta <18){
+        } else if (varsta < 18) {
             System.out.println("Persoana este adolescent");
-        }else if (varsta < 27){
+        } else if (varsta < 27) {
             System.out.println("Persoana este tanara");
-        }else if (varsta < 64){
+        } else if (varsta < 64) {
             System.out.println("Persoana este matura");
-        }else {
+        } else {
             System.out.println("Persoana este varstnica");
         }
     }

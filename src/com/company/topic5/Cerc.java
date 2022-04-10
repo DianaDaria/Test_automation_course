@@ -5,9 +5,9 @@ public class Cerc extends FigurăGeometrică {
     private double razaCercului;
 
     public void setRazaCercului(double razaCercului) {
-        if (razaCercului < 0){
+        if (razaCercului < 0) {
             System.out.println("Raza este gresita!");
-        }else {
+        } else {
             System.out.println("Raza este mai mare decat 0");
             this.razaCercului = razaCercului;
         }
