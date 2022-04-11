@@ -8,11 +8,11 @@ public class Romb extends FigurăGeometrică {
     private double laturaMare;
 
     public void setDiagonale(double diagonalaMare, double diagonalaMica) {
-        if ((diagonalaMare > diagonalaMica) && (diagonalaMare > 0) && (diagonalaMica > 0)){
+        if ((diagonalaMare > diagonalaMica) && (diagonalaMare > 0) && (diagonalaMica > 0)) {
             this.diagonalaMare = diagonalaMare;
             this.diagonalaMica = diagonalaMica;
             System.out.println("Diagonalele au fost setate cu succes");
-        }else {
+        } else {
             System.out.println("Ati introdus diagonalele gresit, mai incercati!");
         }
     }

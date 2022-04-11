@@ -2,10 +2,10 @@ package com.company.topic5;
 
 public class Pătrat extends FigurăGeometrică {
 
-    public Pătrat(double marimeaLatureiAtribuite){
-        if (marimeaLatureiAtribuite < 0 ){
+    public Pătrat(double marimeaLatureiAtribuite) {
+        if (marimeaLatureiAtribuite < 0) {
             System.out.println("Marimea laturei este gresita");
-        }else {
+        } else {
             System.out.println("Marimea laturei este mai mare decat 0");
         }
         latura = marimeaLatureiAtribuite;
@@ -25,8 +25,7 @@ public class Pătrat extends FigurăGeometrică {
 
     @Override
     public double returneazaPerimetrul() {
-        this.perimetrulFigurii =  4 * latura;
+        this.perimetrulFigurii = 4 * latura;
         return this.perimetrulFigurii;
     }
 }
-

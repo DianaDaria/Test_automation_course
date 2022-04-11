@@ -12,7 +12,7 @@ public class Main {
         double ariaPătratuluiMario = pătratMario.returneazaAria();
         System.out.println("Aria figurii manipulate este: " + pătratMario.getAriaFigurii());
 
-        rombAdam.setDiagonale(45, 32 );
+        rombAdam.setDiagonale(45, 32);
         rombAdam.returneazaAria();
         System.out.println("Aria figurii manipulate este: " + rombAdam.getAriaFigurii());
     }

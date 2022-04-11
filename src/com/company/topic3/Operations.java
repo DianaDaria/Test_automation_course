@@ -28,6 +28,7 @@ public class Operations {
         System.out.println("Egalitate:" + (a == b));
         System.out.println("Diferenta:" + (a != b));
     }
+
     ;
 
     static void userForAndWhile(int limita) {
@@ -37,7 +38,6 @@ public class Operations {
             System.out.print(index + " ");
             index++;
         }
-
         System.out.println("Valorea lui index la finalul executiei while este" + index);
         for (int i = 10; i <= limita; i++) {
             System.out.print(i + " ");

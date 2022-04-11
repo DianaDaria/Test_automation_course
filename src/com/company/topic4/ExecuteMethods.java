@@ -14,8 +14,7 @@ public class ExecuteMethods {
         Methods.sum(5);
 
 
-
-     Persoana dianaP = new Persoana("Diana P", 24);
-     dianaP.afiseazaCategoriaDeVarsta();
+        Persoana dianaP = new Persoana("Diana P", 24);
+        dianaP.afiseazaCategoriaDeVarsta();
     }
 }
